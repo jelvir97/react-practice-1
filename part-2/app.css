@@ -1,0 +1,35 @@
+#root{
+    margin-left: 10px;
+}
+
+.tweetContainer{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.tweet {
+    padding: 6px;
+    width: 40vw;
+    background-color: rgb(230, 228, 228);
+    border-radius: 10px;
+    border: solid 1px rgb(152, 152, 152);
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.header{
+    border-bottom: solid rgb(152, 152, 152) 1px;
+}
+
+.header h3{
+    display: inline;
+}
+
+.footer{
+    border-top: solid rgb(152, 152, 152) 1px;
+}
+
+a{
+    text-decoration: none;
+}
