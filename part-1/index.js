@@ -1,6 +1,7 @@
 const App = ()=> (
     <div>
-        <h1>Hello</h1>
+        <FirstComponent />
+        <NamedComponent name="Juan" />
     </div>
 );
 
